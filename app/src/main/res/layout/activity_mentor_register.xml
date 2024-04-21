@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/register_login_back"
+    tools:context=".activities.MentorRegister">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Mentor Connect Registration : "
+        android:fontFamily="@font/andika"
+        android:textSize="16dp"
+        style="bold"
+        android:textColor="@color/white"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/registration"/>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mentor Name"
+            app:hintTextColor="@color/white"
+            app:endIconMode="clear_text"
+            app:placeholderTextColor="@color/black"
+            android:textColorHint="@color/black"
+            app:errorEnabled="true"
+            app:errorIconDrawable="@drawable/ic_baseline_error_outline_24"
+            app:helperText="Required*"
+            app:counterMaxLength="20"
+            app:helperTextTextColor="@color/white"
+            app:counterEnabled="true"
+            app:startIconTint="@color/black"
+            app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mentorName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:maxLength="20"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            app:hintTextColor="@color/white"
+            app:endIconMode="clear_text"
+            app:placeholderTextColor="@color/black"
+            android:textColorHint="@color/black"
+            app:errorEnabled="true"
+            app:errorIconDrawable="@drawable/ic_baseline_error_outline_24"
+            app:helperText="Required*"
+            app:helperTextTextColor="@color/white"
+            app:startIconTint="@color/black"
+            app:startIconDrawable="@drawable/ic_email">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mentorEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:inputType="textWebEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout3"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Insert LinkedIn Http Url "
+            app:hintTextColor="@color/white"
+            app:endIconMode="clear_text"
+            app:placeholderTextColor="@color/black"
+            android:textColorHint="@color/black"
+            app:errorEnabled="true"
+            app:errorIconDrawable="@drawable/ic_baseline_error_outline_24"
+            app:helperText="Required*"
+            app:helperTextTextColor="@color/white"
+            app:startIconTint="@color/black"
+            app:startIconDrawable="@drawable/ic_baseline_link_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mentorLinkedIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:inputType="textWebEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout4"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Work Experience (in yrs)"
+            app:hintTextColor="@color/white"
+            app:endIconMode="clear_text"
+            app:counterMaxLength="2"
+            app:placeholderTextColor="@color/black"
+            android:textColorHint="@color/black"
+            app:errorEnabled="true"
+            app:errorIconDrawable="@drawable/ic_baseline_error_outline_24"
+            app:helperText="Required*"
+            app:suffixText="years"
+            app:suffixTextColor="@color/black"
+            app:helperTextTextColor="@color/white"
+            app:counterEnabled="true"
+            app:startIconTint="@color/black"
+            app:startIconDrawable="@drawable/ic_email">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mentorWorkExperience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="2"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:inputType="phone" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout5"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Work As : "
+            app:endIconMode="clear_text"
+            app:counterMaxLength="35"
+            app:hintTextColor="@color/white"
+            android:textColorHint="@color/black"
+            app:errorEnabled="true"
+            app:errorIconDrawable="@drawable/ic_baseline_error_outline_24"
+            app:helperText="Required*"
+            app:helperTextTextColor="@color/white"
+            app:startIconTint="@color/black"
+            app:counterEnabled="true"
+            app:startIconDrawable="@drawable/ic_baseline_shopping_bag_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mentorWorkAs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="35"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="13dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mentorRegister"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons_back"
+            android:clickable="true"
+            android:text="Register"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

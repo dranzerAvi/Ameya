@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "684651154455",
+    "firebase_url": "https://ameya-51113-default-rtdb.firebaseio.com",
+    "project_id": "ameya-51113",
+    "storage_bucket": "ameya-51113.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684651154455:android:f9462faba616459bca2052",
+        "android_client_info": {
+          "package_name": "com.example.uia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684651154455-mga44dtrbef6n16mjjrrtjl1stt3v8ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVAKO-je_MZ22NPMNDWSGJg6FJLEjuTwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684651154455-mga44dtrbef6n16mjjrrtjl1stt3v8ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

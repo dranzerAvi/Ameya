@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="8dp"
+    android:paddingStart="15dp"
+    android:id="@+id/layoutMentor"
+    android:paddingEnd="15dp"
+    android:paddingBottom="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/register_login_back">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name : "
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/andika"/>
+
+                <TextView
+                    android:id="@+id/mentorName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Darshan Gopal Bennur"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/andika"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email ID : "
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/andika"/>
+
+                <TextView
+                    android:id="@+id/mentorSocial1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="darshan.b21@iiits.in"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/andika"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LinkedIn ID : "
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/andika"/>
+
+                <TextView
+                    android:id="@+id/mentorSocial2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bennur_darshan"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/andika"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Work Experience(yrs) : "
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/andika"/>
+
+                <TextView
+                    android:id="@+id/workExperience"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/andika"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Work as : "
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/andika"/>
+
+                <TextView
+                    android:id="@+id/workAs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Engineer"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/andika"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
